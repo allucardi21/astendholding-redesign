@@ -137,3 +137,11 @@ form.mail textarea{min-height:150px;resize:vertical}
   .menu-btn{padding:7px 10px;font-size:14px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Photos */
+.photo{margin:32px 0 0;overflow:hidden;border-radius:6px;background:var(--mist);position:relative}
+.photo img{width:100%;height:100%;object-fit:cover}
+.photo::after{content:"";position:absolute;left:0;bottom:0;width:72px;height:6px;background:var(--red)}
+.photo.wide{margin-top:48px}
+.wrap>.photo.wide{margin:0}
+@media (max-width:900px){.photo{aspect-ratio:16/10!important}.split .photo{max-height:360px}}
