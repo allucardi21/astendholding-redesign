@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 330" role="img" aria-label="Astend">
+  <g fill="#E3141B">
+    <path d="M190 6 C160 110 100 232 16 324 C112 252 162 160 190 78 Z"/>
+    <path d="M190 6 C220 110 280 232 364 324 C268 252 218 160 190 78 Z"/>
+    <path d="M104 268 Q190 226 276 268 Q190 246 104 268 Z"/>
+  </g>
+  <text x="190" y="234" text-anchor="middle" font-family="Unbounded, 'Arial Black', sans-serif" font-weight="600" font-size="44" letter-spacing="3" fill="#24272B">ASTEND</text>
+</svg>
